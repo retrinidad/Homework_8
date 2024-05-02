@@ -8,4 +8,19 @@ public class Snack {
         this.quantity = quantity;
         this.price = price;
     }
+    public String getName() {
+        return name;
+    }
+
+    public double getPrice() {
+        return price;
+    }
+
+    public int getQuantity() {
+        return quantity;
+    }
+
+    public void reduce(){
+        this.quantity--;
+    }
 }

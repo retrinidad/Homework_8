@@ -4,18 +4,56 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8665a124-d2f8-446a-9d9f-f36cb836a236" name="Changes" comment="" />
+    <list default="true" id="8665a124-d2f8-446a-9d9f-f36cb836a236" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CheetosHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CheetosHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CokeHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CokeHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DispensingSnack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DispensingSnack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DoritosHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DoritosHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/IdleState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/IdleState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/KitKatHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/KitKatHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PepsiHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PepsiHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Snack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Snack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SnackDispenseHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SnackDispenseHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SnickersHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SnickersHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/VendingMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/VendingMachine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/VendingMachineDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/VendingMachineDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/VendingMachineTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/VendingMachineTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WaitingForMoneyState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WaitingForMoneyState.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "retrinidad"
+  }
 }]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/retrinidad/Homework8.git",
+    "accountId": "c3c2bc7d-e170-4754-8c57-bccd97ab39a0"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2fqi6D8yQTREZ5DowwCcOT5nIW6" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -24,9 +62,15 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.VendingMachineDriver.executor": "Run",
+    "JUnit.VendingMachineTest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -47,7 +91,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1714534856726</updated>
-      <workItem from="1714534858322" duration="55000" />
+      <workItem from="1714534858322" duration="9200000" />
+      <workItem from="1714607401642" duration="17440000" />
     </task>
     <servers />
   </component>
