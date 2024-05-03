@@ -1,0 +1,139 @@
+@startuml
+'https://plantuml.com/object-diagram
+
+object "<u>testDocument:Document</u>" as doc{
+
+}
+object "<u>propertiesFactory:CharacterPropertiesFactory</u>" as pf{
+
+}
+object "<u>H:Character</u>" as H{
+character = 'H'
+}
+
+object "<u>e:Character</u>" as e{
+character = 'e'
+}
+object "<u>l:Character</u>" as l1{
+character = 'l'
+}
+
+object "<u>l:Character</u>" as l2{
+character = 'l'
+}
+object "<u>o:Character</u>" as o1{
+character = 'o'
+}
+object "<u>W:Character</u>" as W{
+character= 'W'
+}
+object "<u>o:Character</u>" as o2{
+character = 'o'
+ }
+object "<u>r:Character</u>" as r{
+character = 'r'
+ }
+
+object "<u>l:Character</u>" as l3{
+character = 'l'
+}
+
+object "<u>d:Character</u>" as d{
+character = 'd'
+}
+
+object "<u>C:Character</u>" as C{
+character = 'C'
+}
+
+object "<u>S:Character</u>" as S{
+character = 'S'
+}
+
+object "<u>5:Character</u>" as 5{
+character = '5'
+}
+
+object "<u>8:Character</u>" as 8{
+character = '8'
+}
+
+object "<u>0:Character</u>" as 01{
+character = '0'
+}
+
+object "<u>0:Character</u>" as 02{
+character = '0'
+}
+
+object "<u>Arial16Black:CharacterProperties</u>" as ab16{
+font = "Arial"
+color = "Black"
+size = 16
+}
+
+object "<u>Arial14Black:CharacterProperties</u>" as ab14{
+font = "Arial"
+color = "Black"
+size = 14
+}
+
+object "<u>Verdana18Blue:CharacterProperties</u>" as vb18{
+font = "Verdana"
+color = "Blue"
+size = 18
+}
+
+object "<u>Verdana12Red:CharacterProperties</u>" as vr12{
+font = "Verdana"
+color = "Red"
+size = 12
+}
+
+object "<u>Calibri99Blue:CharacterProperties</u>" as cb99{
+font = "Calibri"
+color = "Blue"
+size = 99
+}
+
+doc *-- pf
+doc *-- H
+doc *-- e
+doc *-- l1
+doc *-- l2
+doc *-- o1
+doc *-- W
+doc *-- o2
+doc *-- r
+doc *-- l3
+doc *-- d
+doc *-- C
+doc *-- S
+doc *-- 5
+doc *-- 8
+doc *-- 01
+doc *-- 02
+
+pf *-- ab16
+pf *-- ab14
+pf *-- vb18
+pf *-- vr12
+pf *-- cb99
+
+H *-- cb99
+e *-- ab14
+l1 *-- ab14
+l2 *-- ab14
+o1 *-- ab14
+W *-- cb99
+o2 *-- ab14
+r *-- ab14
+l3 *-- ab14
+d *-- ab14
+C *-- vb18
+S *-- vb18
+5 *-- vr12
+8 *-- vr12
+01 *-- vr12
+02 *-- vr12
+@enduml
